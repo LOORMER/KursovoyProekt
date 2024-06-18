@@ -23,6 +23,7 @@ class lich_kabinet : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_lich_kabinet)
+        recycler = findViewById(R.id.useHotels)
        recycler.layoutManager = LinearLayoutManager(this)
        recycler.setHasFixedSize(true)
 

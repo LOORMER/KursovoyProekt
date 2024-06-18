@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
@@ -23,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         val vhodBtn : Button = findViewById(R.id.vhodBtn)
         vhodBtn.setOnClickListener{
-            val intent = Intent(applicationContext, loginActivity::class.java)
+            val intent = Intent(applicationContext, LoginActivity::class.java)
             startActivity(intent)
         }
         val registrBtn : Button = findViewById(R.id.registrBtn)
