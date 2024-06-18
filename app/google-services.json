@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "192440638504",
+    "project_id": "abashop-5b542",
+    "storage_bucket": "abashop-5b542.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192440638504:android:aadfa05971a291e5fd691d",
+        "android_client_info": {
+          "package_name": "com.example.kursach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG-8N3l7PurZdQwBfJSRWQoV_5t1qDfLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
